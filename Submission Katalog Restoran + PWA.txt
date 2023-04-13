@@ -1,0 +1,42 @@
+daftar npm install submission 2 katalog restoran + pwa kirim
+
+1. node -v
+2. npm init --y
+--y untuk menjawab semuat pertanyaan default
+
+3. npm install @babel/core @babel/preset-env babel-loader clean-webpack-plugin copy-webpack-plugin css-loader eslint eslint-config-airbnb-base eslint-plugin-import file-loader html-webpack-plugin http-server jasmine-ajax jasmine-core karma karma-chrome-launcher karma-firefox-launcher karma-jasmine karma-sourcemap-loader karma-webpack style-loader webpack webpack-cli webpack-dev-server webpack-merge whatwg-fetch workbox-precaching workbox-webpack-plugin  --save-dev
+
+4. npm install regenerator-runtime
+5. npm run start-dev
+
+6. npx eslint --init
+jawaban init eslint berikut:
+How would you like to use ESLint? -> To check, find problems, and enforce code style.
+What type of modules does your project use? -> JavaScript modules (import/export).
+Which framework does your project use? -> None of these.
+Does your project use TypeScript? -> N.
+Where does your code run? -> Browser, Node.
+How would you like to define a style for your project? -> Use a popular style guide.
+Which style guide do you want to follow? -> (Anda bebas memilih, sebagai contoh pilih AirBnB).
+What format do you want your config file to be in? -> JSON.
+Would you like to …… (rest of questions) -> Y.
+
+7. npm run lint
+untuk mengecek struktur kode
+
+8. npm install workbox-webpack-plugin --save-dev
+9. npm install workbox-window --save
+10. npm run build
+11. npm install http-server --save-dev
+12. npm run serve
+13. npm install idb
+14. npm install -D workbox-precaching
+15. npm run start-dev
+16. npm install -D clean-webpack-plugin
+17. npm run build-serve / npm run build-serve-sharp
+18. npx eslint ./src
+untuk mengecek code quality dengan eslint
+19. npx eslint ./src --fix
+untuk mengefikan error pada eslint
+20. npm run test
+untuk tes karma jasmine
